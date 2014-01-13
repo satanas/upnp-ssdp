@@ -1,0 +1,24 @@
+{
+  "name": "upnp-ssdp",
+  "version": "0.0.1",
+  "description": "UPnP SSDP Discovery and Search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gramakri/upnp-ssdp.git"
+  },
+  "keywords": [
+    "upnp",
+    "ssdp",
+    "discover",
+    "multicast"
+  ],
+  "author": "Girish Ramakrishnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gramakri/upnp-ssdp/issues"
+  }
+}
