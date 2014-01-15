@@ -115,7 +115,7 @@ Ssdp.prototype.search = function (service) {
 
         setTimeout(function checkResponse() {
             if (!response) {
-                that.emit('down', that._lastLocation);
+                if (that._lastLocation) that.emit('down', that._lastLocation);
                 that._lastLocation = null;
             }
             response = false;
