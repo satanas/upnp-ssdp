@@ -89,7 +89,11 @@ Ssdp.prototype.announce = function (config) {
     socket.bind(SSDP_PORT, function () {
         var address = socket.address();
 
-        socket.addMembership(SSDP_ADDRESS);
+        try {
+            socket.addMembership(SSDP_ADDRESS);
+        } catch (e) {
+            that.emit('error', e);
+        }
     });
 };
 
