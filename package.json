@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/gramakri/upnp-ssdp.git"
+    "url": "http://github.com/yellowtent/upnp-ssdp.git"
   },
   "keywords": [
     "upnp",
@@ -19,6 +19,6 @@
   "author": "Girish Ramakrishnan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gramakri/upnp-ssdp/issues"
+    "url": "https://github.com/yellowtent/upnp-ssdp/issues"
   }
 }
