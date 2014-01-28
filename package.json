@@ -1,6 +1,6 @@
 {
   "name": "upnp-ssdp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "UPnP SSDP Discovery and Search",
   "main": "index.js",
   "scripts": {
