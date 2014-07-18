@@ -46,6 +46,7 @@ function parseMsearchResponse(msg) {
 }
 
 function Ssdp() {
+    if (!(this instanceof Ssdp)) return new Ssdp();
     EventEmitter.call(this);
     this._msearchTimer = null;
     this._lastLocation = null;
